@@ -65,6 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/* ######## Genaric ######## */
+
 body{
 	margin: 0 200px;
 }
@@ -80,7 +82,17 @@ nav a:hover{
 	color: white;
 }
 
-/* ######## custom ######## */
+h2{
+	font-size: 20px;
+}
+
+p{
+	text-align: justify;
+	line-height: 1.2em;
+	font-size: 18px;
+}
+
+/* ######## Custom ######## */
 
 nav.topnav{
 	display: flex;
@@ -117,17 +129,56 @@ button.getStarted:hover{
 	margin: 60px 0 75px 0;
 }
 
-/* ######## main ######## */
+/* ######## Main ######## */
 
 .topText{
 	margin: 35px 0;
 	display: flex;
 }
 
-.topTextPadding{
-	padding: 0 15px;
+.featuresPadding{
+	padding: 0 20px 0 0;
 }
 
-h2 p{
-	text-align: justify;
+.aboutPadding{
+	padding: 0 0 0 20px;
+}
+
+img.middle-img{
+	width: 100%
+}
+
+.bottomText{
+	margin: 35px 0;
+	display: flex;
+	border-bottom: 2px solid black;
+}
+
+.servicesPadding{
+	padding: 0 10px 0 0;
+}
+
+.productPadding{
+	padding: 0 10px;
+	margin: 0 0 35px 0;
+}
+
+.visionPadding{
+	padding: 0 0 0 10px;	
+}
+
+p.address a{
+	text-decoration: none;
+	color: black;
+}
+
+p.address a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+
+.copyright{
+	text-align: center;
+	font-size: 15px;
+	margin: 50px 0 80px 0;
 }
